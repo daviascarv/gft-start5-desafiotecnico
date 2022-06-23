@@ -12,6 +12,6 @@ public class ContaPoupança extends Conta{
     @Override
     public String rendimento(){
         return
-        "O rendimento da conta de " +titular+ " foi de R$" +saldo * 0.05;
+        "O rendimento da conta de " +getTitular()+ " foi de R$" +getSaldo() * 0.05;
     }
 }
