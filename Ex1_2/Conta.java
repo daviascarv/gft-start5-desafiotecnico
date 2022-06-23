@@ -1,4 +1,4 @@
-package TesteGFT.Ex1;
+package TesteGFT.Ex1_2;
 
 public class Conta {
     private int numero;

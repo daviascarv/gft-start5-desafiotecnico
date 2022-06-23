@@ -1,6 +1,6 @@
-package TesteGFT.Ex1;
+package TesteGFT.Ex1_2;
 
-public class ContaPoupança extends Conta{
+public class ContaPoupança extends Conta implements Imposto{
     
     public ContaPoupança(){
 
@@ -13,5 +13,10 @@ public class ContaPoupança extends Conta{
     public String rendimento(){
         return
         "O rendimento da conta de " +getTitular()+ " foi de R$" +getSaldo() * 0.05;
+    }
+    @Override
+    public String calcularImposto() {
+        // TODO Auto-generated method stub
+        return rendimento();
     }
 }
