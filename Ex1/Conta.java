@@ -31,7 +31,7 @@ public class Conta {
     public void setTitular(String titular) {
         this.titular = titular;
     }
-    
+
     public String rendimento(){
         return 
             "O rendimento da conta de " +titular+ " foi de R$" +saldo;
