@@ -11,6 +11,6 @@ public class ContaCorrente extends Conta{
     @Override
     public String rendimento(){
         return
-        "O rendimento da conta de " +titular+ " foi de R$" +saldo * 0.03;
+        "O rendimento da conta de " +getTitular()+ " foi de R$" +getSaldo() * 0.03;
     }
 }
