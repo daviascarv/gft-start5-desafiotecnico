@@ -1,5 +1,8 @@
 package TesteGFT.Ex4.Main;
 import java.util.Scanner;
+
+import TesteGFT.Ex4.Carro;
+import TesteGFT.Ex4.CarroPasseio;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,6 +16,8 @@ public class Main {
             String modelo = sc.nextLine();
             System.out.println("Tipo de combustível: ");
             String tipoDeCombustível = sc.nextLine();
+
+            Carro car = new CarroPasseio(marca, modelo, tipoDeCombustível);
         }
     }
     
