@@ -6,7 +6,7 @@ public class Pessoa {
     private String telefone;
 
     public Pessoa(){
-
+        this.nome = "";
     }
     public Pessoa(String nome, String endereço, String telefone){
         this.nome = nome;

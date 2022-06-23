@@ -12,7 +12,7 @@ public class Main {
         
         System.out.println(cc.rendimento());
         System.out.println(cp.rendimento());
-        Imposto im = new ContaCorrente(rendimento());
+        
         
     }
     
